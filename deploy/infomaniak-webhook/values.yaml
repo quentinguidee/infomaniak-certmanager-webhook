@@ -20,7 +20,7 @@ createReleaseNamespace: false
 replicaCount: 1
 
 image:
-  repository: ghcr.io/infomaniak/cert-manager-webhook-infomaniak
+  repository: ghcr.io/quentinguidee/infomaniak-certmanager-webhook
   tag: latest
   pullPolicy: IfNotPresent
 
