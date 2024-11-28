@@ -10,7 +10,7 @@ groupName: acme.infomaniak.com
 
 certManager:
   namespace: cert-manager
-  serviceAccountName: cert-manager
+  serviceAccountName: letsencrypt-cert-manager
 
 # used to add a namespace declaration to the static manifest,
 # prefer `--create-namespaces` with `helm install` >= 3.2
